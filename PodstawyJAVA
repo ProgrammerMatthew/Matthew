@@ -1,0 +1,38 @@
+//PPJ_ZADANIE_01
+import java.util.*;
+public class PPJ_Zadanie01 {
+	public static void main(String[] args) {
+
+		System.out.println("Zmienna typu logicznego.");
+		boolean dzien = true;
+		System.out.println(dzien?"Jest aktualnie dzien bo jest jasno":"Jest noc bo jest juz ciemno");
+		System.out.println("Zmienna typu Liczb Całkowitych.");
+		int wiek; 
+		wiek = 22;
+		int wzrost; 
+		wzrost = 190;
+		int rozmiarButa; 
+		rozmiarButa = 44;
+		System.out.println("Ile lat? :" + wiek);
+		System.out.println("Ile wzorstu? :" + wzrost);
+		System.out.println("Twój rozmiar buta? :" + rozmiarButa);
+	
+		System.out.println("Zmienna typu Liczb rzeczywistych.");
+		double a = 1;
+		double b = 1;
+		double c = 1;
+		double d = 1;
+		double e = 1;
+		System.out.println("Średnia nauki w tygodniu w dniach: " + (a+b+c+d+e));
+		
+		System.out.println("Zmienna typu liczby znakowe.");
+		char p= 'M';
+				System.out.println("Płeć: " + p);
+		
+/////////////////// Zadanie V. /////////////////			
+Scanner in = new java.util.Scanner(System.in);
+int studentId = in.nextInt();
+System.out.println("Hello s" + studentId+".");
+		}
+	
+}
